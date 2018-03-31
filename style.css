@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    background: #00AEFF;
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:auto;
+  }
+
+.container-header{
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+
+}
+  
+  .logo{
+    background: #009BDD;
+    width:30%;
+    height:50px;
+    
+  }
+  
+  .login{
+    background:#36C3FF;
+    width:30%;
+    height:50px;
+  }
+
+main{
+    display:flex;
+    flex-direction:row;
+    /* justify-content:center; */
+    margin:auto;
+    width:60%;
+}
+
+aside{
+      background: #FF5607;
+      height:700px;
+      width:30%;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      flex-wrap: wrap;
+}
+
+.aside-content{
+    width:80%;
+}
+
+.paragraph{
+    background: #E84900;
+    height:40px;
+    margin-top:20px;
+}
+
+.picture{
+    background:#FFBD00;
+    width:40%;
+    height:230px;
+}
+
+.up{
+    display:flex;
+    flex-direction:row;
+    /* height:200px; */
+    width:100%;
+    justify-content:space-between;
+}
+
+.rows{
+    display:flex;
+    flex-direction:column;
+    margin-left:15px;
+    width:50%;
+}
+
+.title{
+    background:#9D9D9D;
+    width:100%;
+    height:30px;
+}
+
+.right-row{
+    background:#CECECE;
+    width: 100%;
+    height:25px;
+    margin-top:15px;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-left:10px;
+    justify-content:center;
+    width:100%;
+} 
+
+.main-row{
+    background:#CECECE;
+    width:100%;
+    height:25px;
+    margin-top:15px;
+}
+
+footer{
+    background:#00D169;
+    width:100%;
+    height:188px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+
+
+.list{
+    background:#02B15A;
+    width:12%;
+    height:150px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.text{
+    background:#038042;
+    width:70%;
+    height:20px;
+    margin:5px;
+}
+
+
+@media screen and (max-width: 1240px){
+
+    header{
+        height:150px;
+    }
+    
+.container-header{
+        width:95%;
+    }
+
+.logo{
+        height:75px;
+    }
+
+.login{
+        height:75px;
+    }
+
+main{
+        width:100%;
+    }
+
+.container{
+        padding-right:10px; 
+    }
+
+aside{
+        width:35%;
+    }
+    
+
+footer{
+    height:250px;
+    }
+
+.list{
+    width:18%;
+    height:200px;
+    }
+
+.text{
+    width:80%;
+    height:28px;
+    margin:8px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+     .container-header{
+        flex-direction:column;   
+        flex-wrap:wrap;
+    }
+
+     .logo{
+        width:100%;
+        height:40px;
+        margin-bottom:15px;
+    }
+
+     .login{
+        width: 100%;
+        height:40px;
+    }
+
+    main{
+        flex-direction:column;
+        align-items:flex-end;
+    }
+    
+    aside{
+        width:100%;
+        height:100px;
+        display:flex;
+        flex-direction:row;
+    }
+
+    .aside-content{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        height:100px;
+    }
+
+    .hidden{
+        visibility:hidden;
+    }
+
+    .paragraph{
+        width:100px;
+        height:40px;
+        margin:30px auto;
+    }
+
+    .up{
+        flex-direction:column;
+    }
+
+    .picture{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:250px;
+    }
+
+    .container{
+        margin:0;
+        padding:0;
+    }
+
+    .rows{
+        width:90%;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .main-row{
+        width:90%;
+    }
+
+    .down{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    footer{
+        margin-top:10px;
+        flex-direction:column;
+        height:300px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .list{
+        width:90%;
+        flex-direction:row;
+        justify-content:flex-start;
+    }
+
+    .text{
+        margin:0;
+        width:15%;
+    }
+
+    .margin{
+        margin-left:10px;
+    }
+
+
+}
+
+
+
+  
