@@ -12,32 +12,29 @@ header{
     justify-content:space-around;
     align-items:center;
     margin:auto;
-  }
+}
 
 .container-header{
     width:60%;
     display:flex;
     justify-content:space-between;
-
 }
   
   .logo{
     background: #009BDD;
     width:30%;
-    height:50px;
-    
-  }
+    height:50px; 
+}
   
   .login{
     background:#36C3FF;
     width:30%;
     height:50px;
-  }
+}
 
 main{
     display:flex;
     flex-direction:row;
-    /* justify-content:center; */
     margin:auto;
     width:60%;
 }
@@ -71,7 +68,6 @@ aside{
 .up{
     display:flex;
     flex-direction:row;
-    /* height:200px; */
     width:100%;
     justify-content:space-between;
 }
@@ -144,8 +140,7 @@ footer{
 
 
 @media screen and (max-width: 1240px){
-
-    header{
+ header{
         height:150px;
     }
     
@@ -173,54 +168,52 @@ aside{
         width:35%;
     }
     
-
 footer{
-    height:250px;
+        height:250px;
     }
 
 .list{
-    width:18%;
-    height:200px;
+        width:18%;
+        height:200px;
     }
 
 .text{
-    width:80%;
-    height:28px;
-    margin:8px;
+        width:80%;
+        height:28px;
+        margin:8px;
     }
 }
 
-
 @media screen and (max-width: 375px) {
-     .container-header{
+ .container-header{
         flex-direction:column;   
         flex-wrap:wrap;
     }
 
-     .logo{
+ .logo{
         width:100%;
         height:40px;
         margin-bottom:15px;
     }
 
-     .login{
+ .login{
         width: 100%;
         height:40px;
     }
 
-    main{
+  main{
         flex-direction:column;
         align-items:flex-end;
     }
     
-    aside{
+  aside{
         width:100%;
         height:100px;
         display:flex;
         flex-direction:row;
     }
 
-    .aside-content{
+  .aside-content{
         width:100%;
         display:flex;
         flex-direction:row;
@@ -229,33 +222,33 @@ footer{
         height:100px;
     }
 
-    .hidden{
+  .hidden{
         visibility:hidden;
     }
 
-    .paragraph{
+  .paragraph{
         width:100px;
         height:40px;
         margin:30px auto;
     }
 
-    .up{
+  .up{
         flex-direction:column;
     }
 
-    .picture{
+  .picture{
         margin:0;
         padding:0;
         width:100%;
         height:250px;
     }
 
-    .container{
+  .container{
         margin:0;
         padding:0;
     }
 
-    .rows{
+  .rows{
         width:90%;
         margin:0 auto;
         display:flex;
@@ -263,17 +256,17 @@ footer{
         align-items:center;
     }
 
-    .main-row{
+  .main-row{
         width:90%;
     }
 
-    .down{
+  .down{
         display:flex;
         flex-direction:column;
         align-items:center;
     }
 
-    footer{
+  footer{
         margin-top:10px;
         flex-direction:column;
         height:300px;
@@ -281,22 +274,20 @@ footer{
         padding-bottom:10px;
     }
 
-    .list{
+  .list{
         width:90%;
         flex-direction:row;
         justify-content:flex-start;
     }
 
-    .text{
+  .text{
         margin:0;
         width:15%;
     }
 
-    .margin{
+  .margin{
         margin-left:10px;
     }
-
-
 }
 
 
